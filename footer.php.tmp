@@ -1,0 +1,17 @@
+<!-- begin footer -->
+<div id="clearer">&nbsp;</div>
+<div id="footer">
+<p class="credit">
+<!--<?php echo $wpdb->num_queries; ?> queries. <?php timer_stop(1); ?> seconds. --> 
+<?php 
+$template_url = get_bloginfo('template_url');
+echo sprintf(__("Powered by <a href='http://gallery.menalto.com' title='%s'><img src='%s/images/gallery.gif'></a>"),  __("Powered by Gallery 2: Your pictures on your website."), $template_url); ?> | <?php echo sprintf(__("<a href='http://wordpress.org' title='%s'><strong>WordPress</strong></a>"), __("Powered by WordPress, state-of-the-art semantic personal publishing platform.")); 
+?>
+</p>  
+</div>
+</div>
+</div>
+</div>
+<?php do_action('wp_footer'); ?>
+</body>
+</html>

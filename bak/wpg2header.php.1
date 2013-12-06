@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo('charset'); ?>" />
+  <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats please -->
+  <meta name="keywords" content="WordPress, themes, templates, Odyssey, Gemini, Fuiyama, Maximus,Trident, Vesuvius, sports betting and arbitrage, web, blog, web log, design, web standards, valid xhtml, CSS, 505, accessibility, useability, 508,"/>
+  <meta name="description" content="The personal web log of a web site builder and designer"/>
+  <meta name="author" content="Root"/>
+  <meta name="ROBOTS" content="ALL"/>
+	<link rev="made" href="mailto:blog@atthe404.com"/>
+  
+  <style type="text/css" media="screen">
+		@import url( <?php bloginfo('stylesheet_url'); ?> );
+	</style>
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
+	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+    
+  <?php wp_get_archives('type=monthly&format=link'); ?>
+	<?php //comments_popup_script(); // off by default ?>
+	<?php wp_head(); ?>
+
+</head>
+
+<body>
+<!-- <body <?php /* GeoMashup::body_attribute();*/ ?>>  -->
+<div id="farouter">
+<div id="outer">
+<div id="rap">
+
+<div id="hmenu">
+
+<table width="100%" border="0" cellspacing=0 cellpadding=0 align="center" valign="center">
+<tr>
+
+<td width="20%">
+</td>
+
+<td width="60%">
+<div id="hnav">
+<ul id="navlist">
+
+<li>&nbsp;</li>
+<li><a href="/" style="border-left: 1px solid #FFFFFF;"><?php _e("Journal");?></a></li>
+<li><a href="/travel/"><?php _e("Travel");?></a></li>
+<li><a href="/photo/"><?php _e("Photo");?></a></li>
+<li><a href="/photo/map/"><?php _e("Photo Map");?></a></li>
+<li><a href="/contact"><?php _e("Contact");?></a></li>
+<li><a href="/about"><?php _e("About");?></a></li>
+
+</ul>
+</div>
+</td>
+
+<td width="20%" valign="bottom" align="right">
+<?php
+  if(function_exists('polyglot_list_langs')){
+    polyglot_list_langs(true);
+  }
+?>
+</td>
+</tr>
+</table>
+
+</div>
+</div>
+</div>
+<!-- end header -->

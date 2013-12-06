@@ -1,0 +1,7 @@
+#content {
+	float: right;
+/*	width: 540px; */
+/*	width: 690px; */
+/*	width: 720px; */
+	width: 820px;
+	}

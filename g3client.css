@@ -1,0 +1,113 @@
+//.g3client_wrapper {
+//    width: 95% !important;
+//    min-width: 95% !important;
+//
+//    margin-left: auto !important;
+//    margin-right: auto !important;
+//}
+.g3client_wrapper {
+//    width: 95% !important;
+//    min-width: 95% !important;
+//    width: 95% !important;
+//    min-width: 95% !important;
+//	border:1px solid black
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.g3client_thumb_title {
+    font-weight: bold;
+}
+
+.g3client_thumb {
+
+}
+
+.g3client_albumscaption,
+.g3client_photoscaption {
+    font-weight: bold;
+}
+
+.g3client_thumb_album img,
+.g3client_thumb_photo img {
+    border: 1px solid #acacac;
+    background-color: white;
+    padding: 4px;
+}
+
+.g3client_thumb_photo img:hover {
+    border: 1px solid #909090;
+}
+
+.g3client_breadcrumb a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.g3client_curitem {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.g3client_thumbview {
+
+    empty-cells: show;
+    border: none !important;
+    border-spacing: 5px !important;
+
+    background-color: #e0e0e0;
+//    padding: 2.5em !important;
+    padding: 5px !important;
+    border: 2px solid #adadad !important;
+}
+
+.g3client_thumbview td {
+    vertical-align: middle;
+    text-align: center;
+    border: none !important;
+//border: 1px solid black;
+}
+
+.g3client_singleview {
+    text-align: center;
+}
+
+.g3client_singleview img {
+    padding: 4px;
+    border: 2px solid #adadad;
+}
+
+.g3client_singletitle {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.g3client_singleslug {
+    font-size: 1.1em;
+}
+
+.g3client-widget-error {
+    color: red;
+    font-weight: bold;
+}
+
+.g3client_widget_random_photo_link img {
+}
+
+.g3client_widget_random_photo_link {
+}
+
+.g3client_widget_randomphoto_container {
+}
+
+.g3client_lightbox_sidebar {
+    position: fixed; 
+    z-index: 99999;
+    bottom:0px;
+    top:0px;
+    height: 100%;
+    width: 200px;
+    right:0px;
+    border: 1px solid #ccc;
+    background :#ccc;
+}
